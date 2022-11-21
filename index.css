@@ -30,7 +30,7 @@ a, li{
    grid-column-start: span 4;
 }
 .navbar .navbar-brand {
-    position: absolute;
+   
     height: 12rem;
     width: 12rem;
 }
@@ -167,3 +167,5 @@ a, li{
     }
     
 }
+
+
