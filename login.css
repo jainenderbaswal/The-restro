@@ -38,12 +38,11 @@ color: white;
     margin: 32px 0px;
 }
 .container .box input{
-    display: inline-block;
+    text-align: left;
     color: white;
     background: none;
     font-size: 1.3rem;
     padding: 5px 10px;
-    /* width: 75%; */
     border:none;
     outline: none;
 
