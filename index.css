@@ -44,6 +44,58 @@ a, li{
    font-size: 1.2rem;
    color: white;
 }
+/* For login popup form */
+.popup-form{
+    display: none;
+    background: url(images/credentials.jpg) center center;
+    background-size: cover;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 7rem;
+    right: 0rem;
+    width: 280px;
+ 
+}
+.form-container{  
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 280px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 20px rgb(184, 101, 174);
+    
+}
+.form-container .cancel {
+    background-color: red;
+  }
+.popup-form:hover{
+    opacity: 1;
+}
+.form-container input{
+     background-color: #ddd;
+    /*color: white;
+    outline: none;*/
+    margin: 0.6rem 0 0.6rem 0; 
+    text-align: left;
+    padding: 0.1rem 0.5rem;
+    color: rgb(0, 0, 0);
+    /* background: none; */
+    font-size: 1rem;
+    border:none;
+    outline: none;
+}
+.btn{
+    background-color: rgb(72, 121, 75);
+    padding: 0.2rem;
+    margin: 0.5rem 3rem;
+    width: 50%;
+    color: white;
+    border: none;
+}
+/* login pop form css ends here */
 .navbar .create{
     border-radius: 0.5rem;
     margin-left: 10px;
@@ -87,6 +139,28 @@ a, li{
     text-align: center;
     
 }
+/* search list functionality */
+/* .list{
+    font-size:  1.5em;
+    margin-left: 5.625rem;
+    display: none;
+}
+
+#location-list{
+    display: list-item;
+}
+input[type=text] {
+    width: 10%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ /* When the input field gets focus,
+      change its width to 100% 
+ input[type=text]:focus {
+   width: 20%;
+ } */
+
 /* main content*/
 .main-content{
     display: grid;
